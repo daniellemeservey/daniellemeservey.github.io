@@ -1,13 +1,17 @@
 body {text-align: center;
 	background: url("images/ei_welcome.jpg");
 	background-size: cover;
-font-family: "Helvetica Neue";}
+	font-family: "Helvetica Neue";
+	color: #4C4C4C;}
 
 h1{color: #0A273D;}
 
-p{color: #4C4C4C;}
+h2, h3 {color: #0A273D;}
+
+ul {list-style: none;}
 
 #slogan {font-size: 22px;
-	color: #1E77BA;}
+	color: #1E77BA;
+	text-transform: uppercase;}
 
 
