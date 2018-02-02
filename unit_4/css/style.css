@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Hind|Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Hind|Poppins:400,600');
 body {text-align: center;
 	background: url("images/ei_welcome.jpg");
 	background-size: cover;
 	font-family: 'Hind', sans-serif;, sans-serif;
 	color: #4C4C4C;}
 
-h1{font-family: 'Poppins', sans-serif; color: #0A273D;}
+h1{font-family: 'Poppins', sans-serif; color: #0A273D;font-size: 2.5em}
 
 h2, h3 {font-family: 'Poppins', sans-serif; color: #0A273D;}
 
 ul {list-style: none;}
 
-#slogan {font-family: 'Poppins', sans-serif; font-size: 22px;
+#slogan {font-family: 'Poppins', sans-serif; font-size: 1.5em;
 	color: #1E77BA;
 	text-transform: uppercase;}
 
