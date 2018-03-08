@@ -8,7 +8,7 @@ h1{
 	font-size: 40px;
 	text-align: center;
 	display: block;
-	width:800px;
+	max-width:800px;
 	margin:auto;
 }
 h1, h2, h3 {
@@ -22,11 +22,12 @@ article {
 	background-color: white;
 	float: left;
 	width: 34%;
-	min-height: 40em;
+	min-height: 590px;
 	padding: 6px;
 }
 article img {
 	width:100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 footer {
 	text-align: center;
@@ -47,12 +48,12 @@ footer a {
 #slogan {
 	font-family: 'Source Sans Pro:600', sans-serif;
 	font-size: 20px;
-	color: #1E77BA;
+	color: #1E77BA; 
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
 	margin:auto;
-	width: 1000;
+	max-width: 1000;
 }
 #intro {
 	background: url("../images/ei_welcome.jpg");
@@ -102,4 +103,11 @@ footer a {
     content: " ";
     clear: both;
     height: 0;
+}
+.boxtext {
+	border: 2px solid #F79125;
+	padding: 10px;
+	border-radius: 10px;
+	min-height: 175px;
+
 }
