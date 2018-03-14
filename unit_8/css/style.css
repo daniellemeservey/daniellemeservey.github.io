@@ -150,8 +150,8 @@ footer a {
 }
 @media screen and (max-width: 579px) {
 	.boxtext {
-		min-height: 17em;
-		max-height: 17em;
+		min-height: 18em;
+		max-height: 18em;
 	}
 }
 /*TEST\*
