@@ -137,7 +137,10 @@ footer a {
 	}
 	#about {
 		width: 20em; 
-}
+	}
+	.logo {
+		width: 100px;
+	}
 }
 /*TEST\*
 
