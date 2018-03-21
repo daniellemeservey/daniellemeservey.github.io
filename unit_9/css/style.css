@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400i');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Source Sans Pro:400', sans-serif;
+	color: #4C4C4C;
+	font-size: 16px
+}
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	max-width:50em;
+	margin:auto;
+}
+h1, h2, h3 {
+	font-family: 'Source Sans Pro:600', sans-serif;
+	color: #0A273D;
+}
+ul {
+	list-style: none;
+}
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+article {
+	background-color: white;
+	float: left;
+	width: 48%;
+	margin: 1%;
+/*
+	padding: 6px;
+	margin: 1%;*/
+}
+article img {
+	width:100%;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+}
+footer {
+	text-align: center;
+	padding-bottom: 1%;
+}
+footer a {
+	display: inline-block;
+	padding:0 2%;
+	color: #1E77BA;
+	text-decoration: none;
+}
+#about {
+	width: 50em;
+	margin: auto;
+}
+#slogan {
+	font-family: 'Source Sans Pro:600', sans-serif;
+	font-size: 1.25em;
+	color: #1E77BA; 
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin:auto;
+	max-width: 1000;
+}
+#intro {
+	background: url("../images/ei_welcome.jpg");
+	background-size: cover;
+	height: 90vh;
+	background-position: center;
+}
+.logo {
+	width: 115px;
+	padding: 5px;
+}
+.cta {
+	background-color: #1E77BA; 
+    border: none;
+    color: white;
+    padding: 1.5% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    text-align: bottom;
+    margin: 2px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+}
+.cta:hover {
+	background-color: #165687;
+    color: white;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+}
+.cta:active {
+	background-color: #165687;
+	color:white;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+	transform: translateY(4px);
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.boxtext {
+	border: .125em solid #F79125;
+	padding: .625em;
+	border-radius: .625em;
+	height: 11em;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
+}
+@media screen and (max-width: 1369px) {
+	.boxtext {
+		height: 14em;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#intro {
+		height: 100vh;
+	}
+	#about {
+		width: 30em; 
+}
+	.articleimg {
+		display: none;
+	}
+	.boxtext {
+		height: 17em;
+	}
+}
+@media screen and (max-width: 768px){
+	article {
+		width: 98%;
+		margin: 1%;
+	}
+	.boxtext {
+		height: auto;
+	}
+	#about {
+		width: 20em; 
+}
+}
+/*TEST\*
+
