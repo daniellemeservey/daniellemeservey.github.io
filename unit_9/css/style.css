@@ -27,6 +27,7 @@ article {
 	float: left;
 	width: 48%;
 	margin: 1%;
+	padding: 2em;
 /*
 	padding: 6px;
 	margin: 1%;*/
@@ -46,8 +47,9 @@ footer a {
 	text-decoration: none;
 }
 #about {
-	width: 50em;
+	width: 40em;
 	margin: auto;
+	padding: 5em;
 }
 #slogan {
 	font-family: 'Source Sans Pro:600', sans-serif;
@@ -73,13 +75,13 @@ footer a {
 	background-color: #1E77BA; 
     border: none;
     color: white;
-    padding: 1.5% 2%;
+    padding: 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1em;
     text-align: bottom;
-    margin: 2px;
+    margin: 1em 1em 1em 0;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
 }
 .cta:hover {
@@ -103,14 +105,16 @@ footer a {
 }
 .boxtext {
 	border: .125em solid #F79125;
-	padding: .625em;
-	border-radius: .625em;
-	height: 11em;
+	padding: 2em;
+	height: 21em;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);
 }
-@media screen and (max-width: 1369px) {
+.articletext {
+	padding-top: 1em;
+}
+@media screen and (max-width: 1375px) {
 	.boxtext {
-		height: 14em;
+		height: 29em;
 	}
 }
 @media screen and (max-width: 1024px) {
@@ -124,7 +128,12 @@ footer a {
 		display: none;
 	}
 	.boxtext {
-		height: 17em;
+		height: 31em;
+	}
+}
+@media screen and (max-width: 879px){
+	.boxtext {
+		height: 40em;
 	}
 }
 @media screen and (max-width: 768px){
@@ -140,6 +149,6 @@ footer a {
 		height: auto;
 	}
 	#about {
-		width: 20em; 
+		width: 25em; 
 	}
 }
