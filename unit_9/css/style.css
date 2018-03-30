@@ -69,7 +69,9 @@ footer a {
 }
 .logo {
 	width: 115px;
-	padding: 5px;
+	padding: 1em;
+	display: block;
+	margin:auto;
 }
 .cta {
 	background-color: #1E77BA; 
